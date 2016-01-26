@@ -19,7 +19,7 @@ public class Main {
         int screenWidth = screenSize.width;
         int screenHeight = screenSize.height;
 
-        mainFrame.setBounds((screenWidth - screenWidth / 2) / 2, 0, screenWidth / 2, screenHeight - 50);
+        mainFrame.setBounds((screenWidth - (screenWidth / 2 + screenWidth / 4)) / 2, 0, screenWidth / 2 + screenWidth / 4, screenHeight - 50);
 
         GridBagLayout layout = new GridBagLayout();
         mainPanel = new JPanel(layout);
